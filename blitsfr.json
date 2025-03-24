@@ -1,0 +1,15 @@
+{
+  "name": "BLITSFR",
+  "version": "0.1.0",
+  "description": "BLAST Interactive Tracks in Single File Report",
+  "template": "blitsfr.template.html",
+  "input_format": {
+    "blitsfrJSON": {
+      "startIdx": "@@BLITSFR@@INPUT@@START@@",
+      "logData": "NA",
+      "trackMetadata": "NA",
+      "cgviewData": "NA",
+      "endIdx": "@@BLITSFR@@INPUT@@END@@"
+    }
+  }
+}
